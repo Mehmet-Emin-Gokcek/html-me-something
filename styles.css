@@ -18,23 +18,16 @@ h1 {
     box-shadow: 0 0 25px 25px #ffffff;
 }
 
-.image {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 1200px;
-    height: 150px;
-}
-
 #ist,
 #hou,
 #lub,
 #pas {
     border: 1px solid #ddd;
     border-radius: 4px;
-    padding: 5px;
+    padding: 0px;
     width: 450px;
     height: 250px;
+    box-shadow: 0 0 10px 10px #ffffff;
 }
 
 .center {
@@ -77,4 +70,18 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.up {
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+figcaption {
+    padding: 10px;
 }
