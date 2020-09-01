@@ -1,0 +1,80 @@
+body,
+html {
+    min-height: 100%;
+}
+
+body {
+    color: white;
+    background: url("images/background.jpg") center no-repeat;
+    background-size: cover;
+    background-color: #444;
+}
+
+h1 {
+    background: url("images/background.jpg");
+    background-size: cover;
+    padding: 35px;
+    text-align: center;
+    box-shadow: 0 0 25px 25px #ffffff;
+}
+
+.image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 1200px;
+    height: 150px;
+}
+
+#ist,
+#hou,
+#lub,
+#pas {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 450px;
+    height: 250px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+table {
+    width: 80%;
+    border: solid;
+    margin: auto;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 20px;
+    border: solid;
+    background-color: beige;
+    background: url("images/background.jpg");
+    background-size: cover;
+}
+
+hr.green {
+    border: 5px solid beige;
+    border-radius: 5px;
+}
+
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
